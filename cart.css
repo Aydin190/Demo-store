@@ -1,0 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/rubik');
+body{
+    background: #093452;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    padding: 1.5rem;
+}
+
+
+
+.cartContainer{
+    max-width: 600px;
+    justify-content: center;
+    background-color: #d70000;
+    padding: 1.5rem;
+    border-radius: 0%;
+}
+
+
+
+.cartItem{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+
+
+.total{
+    gap: 1.4rem;
+    font-size: 2rem;
+}
+
+
+
+.clearBtn{
+    gap: 1.4rem;
+    padding: 10px;
+    border-color: transparent;
+    border-radius: 2%;
+    cursor: pointer;
+}
